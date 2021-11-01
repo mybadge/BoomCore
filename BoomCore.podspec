@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   s.description = "this is Boom Core api, includes RLoud, BRTC, \u662F\u4E00\u4E2A\u91CD\u8981\u7684\u5F00\u53D1\u5DE5\u5177\u5305"
   s.platform  = :ios, '10.0'
   s.requires_arc          = true
-  s.frameworks = ["UIKit", "AVFoundation", "Foundation"]
+  s.frameworks = ["UIKit", "AVFoundation", "Foundation", "AudioToolbox", "CoreAudio", "CoreGraphics", "CoreVideo", "GLKit", "VideoToolbox"]
+  s.libraries = 'c', 'sqlite3', 'stdc++'
   s.xcconfig = {"CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES"=>"YES", "ENABLE_BITCODE"=>"YES", "GCC_PREPROCESSOR_DEFINITIONS"=>"$(inherited) PODSPEC_NAME=\#{s.name} PODSPEC_VERSION=\#{s.version}"}
 
   s.ios.deployment_target    = '10.0'
