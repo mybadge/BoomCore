@@ -1,0 +1,6 @@
+framework module BoomCore {
+  umbrella header "BoomCore.h"
+
+  export *
+  module * { export * }
+}
