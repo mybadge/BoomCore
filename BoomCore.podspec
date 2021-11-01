@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "BoomCore"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
   s.summary = "BoomCore is Boom core SDK"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"805413147@qq.com"=>"mybadge@163.com"}

@@ -15,3 +15,10 @@ git tag -a 0.4.0 -m 'v0.4.0' -f
 ## 推送framework 到私有仓库
 pod repo push boom Vloud.podspec  --use-libraries --allow-warnings
  
+
+
+## 推送 BoomCore 到 cocopod
+
+```
+pod trunk push BoomCore.podspec
+```
