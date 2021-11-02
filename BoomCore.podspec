@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "BoomCore"
-  s.version = "1.0.1.2"
+  s.version = "1.0.1.3"
   s.summary = "BoomCore is Boom core SDK"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"zhaozhidan"=>"mybadge@163.com"}
@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target    = '10.0'
   s.ios.vendored_frameworks   = 'ios/BoomCore.framework', 'ios/Vloud.framework'
+  s.vendored_frameworks = 'ios/BoomCore.framework', 'ios/Vloud.framework'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
 end
