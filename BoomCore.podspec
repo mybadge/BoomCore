@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description = "this is Boom Core api, includes VLoud"
   s.platform  = :ios, '10.0'
   s.requires_arc          = true
-  s.frameworks = ["UIKit", "AVFoundation", "Foundation", "AudioToolbox", "CoreAudio", "CoreGraphics", "CoreVideo", "GLKit", "VideoToolbox"]
+  s.frameworks = ["UIKit", "AVFoundation", "Foundation", "AudioToolbox", "CoreAudio", "CoreGraphics", "CoreVideo", "GLKit", "VideoToolbox", "ReplayKit"]
   s.libraries = 'c', 'sqlite3', 'stdc++'
   # s.xcconfig = {"CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES"=>"YES", "ENABLE_BITCODE"=>"YES", "GCC_PREPROCESSOR_DEFINITIONS"=>"$(inherited) PODSPEC_NAME=\#{s.name} PODSPEC_VERSION=\#{s.version}"}
 
