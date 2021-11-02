@@ -16,6 +16,8 @@ git tag -a 0.4.0 -m 'v0.4.0' -f
 pod repo push boom Vloud.podspec  --use-libraries --allow-warnings
  
 
+##  pod lib lint --skip-import-validation
+
 
 ## 推送 BoomCore 到 cocopod
 

@@ -16,5 +16,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target    = '10.0'
   s.ios.vendored_frameworks   = 'ios/BoomCore.framework', 'ios/Vloud.framework'
   s.vendored_frameworks = 'ios/BoomCore.framework', 'ios/Vloud.framework'
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+  # s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+  s.pod_target_xcconfig = {
+    'ARCHS[sdk=iphonesimulator*]' => '$(ARCHS_STANDARD_64_BIT)'
+  }
+
 end
