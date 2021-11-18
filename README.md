@@ -27,3 +27,6 @@ pod trunk push BoomCore.podspec --verbose --skip-import-validation
 ```
 pod trunk push BoomCore.podspec
 ```
+
+## 删除 cocopods 里面的库
+pod trunk delete BoomCore 1.0.1  这个可以删除
